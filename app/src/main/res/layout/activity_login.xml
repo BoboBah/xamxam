@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/colorBlack"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="164dp"
+        android:layout_height="137dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="108dp"
+        app:srcCompat="@drawable/xamxam" />
+
+    <EditText
+
+        android:id="@+id/editText"
+        android:layout_width="277dp"
+        android:layout_height="63dp"
+
+        android:layout_alignParentBottom="true"
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginBottom="239dp"
+        android:background="@drawable/edit_round"
+        android:drawableLeft="@drawable/ic_person"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:text="bobobah@gmail.com"
+        android:textColor="@android:color/white"
+        android:textSize="16dp" />
+
+    <EditText
+
+        android:id="@+id/editText2"
+        android:layout_width="277dp"
+        android:layout_height="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="163dp"
+        android:background="@drawable/edit_round"
+        android:drawableLeft="@drawable/ic_pass"
+        android:drawablePadding="10dp"
+        android:ems="10"
+
+        android:text="Password"
+
+        android:textSize="30dp"
+
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/white"
+        />
+
+    <Button
+
+        android:id="@+id/button"
+        android:layout_width="271dp"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="78dp"
+        android:background="@drawable/button_round"
+        android:onClick="action"
+        android:text="Se Connecter" />
+</RelativeLayout>
